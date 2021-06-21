@@ -1,0 +1,118 @@
+* {
+    padding: 5px 5px;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    background: #396b69;
+}
+
+.new-transition {
+    max-width: 320px;
+    height: auto;
+    background-color: #33CC95;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.new-transition input {
+   width: 100%;
+   height: 40px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 15px;
+   font-weight: 700;
+}
+.new-transition button {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn-deposit {
+    background-color: #85d122;
+}
+.btn-deposit:hover {
+    background-color: #68a519;
+}
+.btn-withdraw{
+    background-color: #d4352f;
+}
+.btn-withdraw:hover {
+    background-color: #aa2c27;
+}
+
+.container-profile{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+.proifle-btn {
+    min-width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+.btn-newTransition {
+    width: 50px;
+    height: 50px;
+    background: #33CC95;
+    border-radius: 50%;
+}
+
+.btn-newTransition:hover {
+    background: #1b805a;
+}
+
+.profile-decription {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 30px;
+}
+
+.deposited-balance, .drawn-balance, .total-balance {
+    max-width: 600px;
+    height: 136px;
+    display: flex;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+    color: #363F5F;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.deposited-balance:hover, .drawn-balance:hover, .total-balance:hover {
+    transform: translateX(10px);
+}
+
+.container-balances div div {
+    flex: 1;
+}
+.container-balances img {
+    width: 40px;
+    height: 40px;
+}
+.container-balances div p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.container-balances .total-balance {
+    background: #33CC95;
+}

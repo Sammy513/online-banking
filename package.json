@@ -1,0 +1,28 @@
+{
+  "name": "deposit-withdraw",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack -w",
+    "server": "json-server --watch  data.json"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "json-server": "^0.16.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.3.2",
+    "ts-loader": "^8.0.12",
+    "typescript": "^4.1.3"
+  }
+}
